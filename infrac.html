@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Infraction</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+</head>
+
+<body>
+  <img src="https://bbk12e1-cdn.myschoolcdn.com/ftpimages/888/logo/parish_logo_blue_background.png">
+  <h1>Parish Infraction Service</h1>
+  <h3>Sign In ID: #528</h3>
+  <label>Insert name of student:</label>
+  <input type="text">
+  <br>
+  <br>
+  <label>Reason:</label>
+  <input type="text">
+  <br>
+  <br>
+  <label>Grade level:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Middle School">
+      <option value="5">5th Grade</option>
+      <option value="6">6th Grade</option>
+      <option value="7">7th Grade</option>
+      <option value="8">8th Grade</option>
+    </optgroup>
+    <optgroup label="High School">
+      <option value="9">9th Grade</option>
+      <option value="10">10th Grade</option>
+      <option value="11">11th Grade</option>
+      <option value="12">12th Grade</option>
+    </optgroup>
+  </select>
+  <br>
+  <br>
+  <label>Amount:</label>
+  <select name="amount">
+    <optgroup label="Infraction">
+    <option>1</option>
+  </optgroup>
+  <optgroup label="Detention">
+    <option>2</option>
+  </optgroup>
+  </select>
+    <br>
+    <br>
+    <form method="POST" action="/done.html">  
+  <input type="submit">
+    </form>
+  <br>
+  <br>
+  <br>
+    <p>Looking for Honor Code violations?</p>
+  <a href='/hc.html'>Click Here.</a>
+  <script src="script.js"></script>
+</body>
+
+</html>
